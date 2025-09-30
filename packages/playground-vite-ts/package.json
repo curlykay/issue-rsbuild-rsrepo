@@ -11,13 +11,9 @@
   },
   "devDependencies": {
     "typescript": "~5.8.3",
-    "vite": "npm:rolldown-vite@7.1.12"
+    "vite": "^7.1.7"
   },
-  "pnpm": {
-    "overrides": {
-      "vite": "npm:rolldown-vite@7.1.12"
-    }
-  },
+  
   "dependencies": {
     "lib-rslib": "workspace:*",
     "lib-tsdown": "workspace:*",
