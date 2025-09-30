@@ -2,6 +2,7 @@
   "name": "rsrepo",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "pnpm i && pnpm turbo daemon start && pnpm turbo run build",
     "pt:dev-watch": "pnpm run -F='playground-ts' dev:watch"
   },
   "keywords": [],
