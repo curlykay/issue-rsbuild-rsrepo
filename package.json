@@ -1,0 +1,14 @@
+{
+  "name": "rsrepo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pt:dev-watch": "pnpm run -F='playground-ts' dev:watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "turbo": "^2.5.8"
+  }
+}
