@@ -16,9 +16,10 @@
 - ✅ **lib-rslib**：修改源码后，HMR 正常工作
 - ✅ **lib-tsdown**：修改源码后，HMR 正常工作
 
-**结论**：同样的 monorepo 配置和依赖构建流程，Vite 环境下所有依赖库的 HMR 均正常，问题应该出在 Rsbuild 上。
+**结论**：同样的 monorepo 配置和依赖构建流程，Vite 环境下所有依赖库的 HMR 均正常。
 
 Rsbuild 错误示例：
+
 ```
 playground-rsbuild-ts:dev: start   building removed lib-rslib/dist/index.js
 playground-rsbuild-ts:dev: error   Build error:
@@ -59,6 +60,7 @@ pnpm run setup
 ```
 
 该命令会执行：
+
 - 安装所有依赖
 - 启动 Turbo daemon
 - 构建所有 packages
@@ -78,6 +80,7 @@ pnpm run pvt:dev-watch
 ```
 
 两个命令都依赖 Turborepo 的 `turbo watch` 功能：
+
 - 启动对应的 playground 开发服务器
 - 监听依赖库源码的修改
 - 根据依赖拓扑从修改处向下游依次自动构建
