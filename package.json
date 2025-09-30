@@ -3,7 +3,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "pnpm i && pnpm turbo daemon start && pnpm turbo run build",
-    "pt:dev-watch": "pnpm run -F='playground-ts' dev:watch"
+    "prt:dev-watch": "pnpm run -F='playground-rsbuild-ts' dev:watch",
+    "pvt:dev-watch": "pnpm run -F='playground-vite-ts' dev:watch"
   },
   "keywords": [],
   "author": "",
