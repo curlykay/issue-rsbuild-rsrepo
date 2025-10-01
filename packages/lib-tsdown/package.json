@@ -34,10 +34,10 @@
     "release": "bumpp && npm publish"
   },
   "devDependencies": {
-    "@types/node": "^22.18.7",
+    "@types/node": "^22.18.8",
     "bumpp": "^10.2.3",
     "tsdown": "^0.11.13",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "vitest": "^3.2.4"
   }
 }
