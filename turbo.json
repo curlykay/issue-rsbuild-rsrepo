@@ -9,6 +9,12 @@
       "cache": false,
       "persistent": true,
       "dependsOn": ["^build"]
+    },
+    "dev:prt": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": ["lib-tsup#build", "lib-tsdown#build"],
+      "with": ["lib-rslib#dev"]
     }
   },
   "ui": "tui"

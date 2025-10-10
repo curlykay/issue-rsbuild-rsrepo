@@ -6,8 +6,9 @@
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
+    "dev:prt": "pnpm turbo run build && rsbuild dev --open",
     "preview": "rsbuild preview",
-    "dev:watch": "pnpm turbo watch dev"
+    "dev:watch": "pnpm turbo watch dev:prt"
   },
   "devDependencies": {
     "@rsbuild/core": "^1.5.13",
